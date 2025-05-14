@@ -4,6 +4,11 @@ import Link from "next/link";
 
 export default function home() {
 
-    return <Link href={'./blog'}>Blog</Link>
+    return (
+        <div>
+        <Link href={'./blog'}>Blog</Link>
+        <Link href={'./blog'}>About</Link>
+        </div>
+    )
  
 }
